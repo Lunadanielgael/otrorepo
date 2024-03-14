@@ -1,3 +1,4 @@
+## mensajes y toma de variables##
 <?php
 session_start();
 
@@ -7,7 +8,7 @@ $password = "tu_contraseña";
 $dbname = "emplea";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
-
+## validacion de los datos ##
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -23,7 +24,7 @@ if (isset($_POST['login'])) {
     $stmt->execute();
 
     $result = $stmt->get_result();
-
+## condicional que comprueba resultados##
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
         $_SESSION['user'] = $user;
@@ -33,6 +34,7 @@ if (isset($_POST['login'])) {
     }
 }
 ?>
+## tipo de datos y inicio con HTML## 
 <!DOCTYPE html>
 <html>
 <head>
