@@ -1,5 +1,3 @@
-/*Se da inicio al codigo de vista-Login/*
-
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +6,7 @@
 }
 
 
-/*establece el color de fondo para el elemento/*
+/* establece el color de fondo para el elemento /*
 body {
 background-color: E5ECF9;
 }
@@ -21,7 +19,7 @@ background-color: E5ECF9;
     margin: auto;
     margin-top: 150px;
 }
-/*actualización de los datos de la clase .info/*
+/* actualización de los datos de la clase .info /*
 .info{
     background-image: url(Title\ Page\ \(1\).jpg);
     background-position: center center;
@@ -32,7 +30,7 @@ background-color: E5ECF9;
     width: 50%;
 }
 
-/*establece un conjunto de estilos para los elementos h2/*
+/* establece un conjunto de estilos para los elementos h2 /*
 .info h2 {
 color: #fff;
 text-transform: uppercase;
@@ -40,7 +38,7 @@ font-size: 50px;
 margin-bottom: 25px;
 }
 
-/*establece estilos para los elementos hr/*
+/* establece estilos para los elementos hr /*
 .info hr {
     width: 55px;
     border: 4px solid #fff;
@@ -48,12 +46,12 @@ margin-bottom: 25px;
     margin-bottom: 25px;
 }
 
-/*establece estilos para los elementos que tienen la clase .txt-2/*
+/* stablece estilos para los elementos que tienen la clase .txt-2 /*
 .txt-2 {
     color: #fff;
     font-size: 18px;
 }
-/*cambios en la clase .form, .formh2 etc/*
+/* cambios en la clase .form, .formh2 etc *
 .form {
     padding: 150px 100px;
     width: 50%;
@@ -61,27 +59,27 @@ margin-bottom: 25px;
     background-color: #fff;
 }
 
-/*establece estilos para los elementos que tienen la clase formh2/*
+/* establece estilos para los elementos que tienen la clase formh2 /*
 .formh2 {
     color:#097EF6;
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-/*establece estilos para los elementos <p> que se encuentren dentro de un elemento con la clase .form/*
+/* establece estilos para los elementos <p> que se encuentren dentro de un elemento con la clase .form /*
 .form p {
     font-size: 16px;
     color: #c4c3c3;
     margin-bottom: 25px;
 }
 
-/*Establece el tipo de visualización de los elementos como un contenedor flexible/*
+/* Establece el tipo de visualización de los elementos como un contenedor flexible /*
 .inputs {
     display: flex;
     flex-direction: column;
 }
 
-/*establece estilos para los elementos que tienen la clase .box/*
+/* establece estilos para los elementos que tienen la clase .box /*
 .box {
     outline: none;
     border-color: #097EF6;
@@ -99,7 +97,7 @@ margin-bottom: 25px;
     margin-bottom: 35px;
 }
 
-/*establece estilos aplicará un fondo azul con texto blanco y un botón redondeado con un tamaño de fuente más grande y texto en mayúsculas/*
+/* establece estilos aplicará un fondo azul con texto blanco y un botón redondeado con un tamaño de fuente más grande y texto en mayúsculas /*
 .submit {
     background-color: #097EF6;
     padding: 15px;
@@ -110,4 +108,4 @@ margin-bottom: 25px;
     border-radius: 25px;
 
 }
-/*Se da fin al codigo de vista-Login/*
+
