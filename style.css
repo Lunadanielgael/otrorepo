@@ -30,7 +30,7 @@ background-color: E5ECF9;
     width: 50%;
 }
 
-##establece un conjunto de estilos para los elementos <h2>##
+##establece un conjunto de estilos para los elementos h2##
 .info h2 {
 color: #fff;
 text-transform: uppercase;
@@ -38,7 +38,7 @@ font-size: 50px;
 margin-bottom: 25px;
 }
 
-## establece estilos para los elementos <hr>##
+##establece estilos para los elementos hr##
 .info hr {
     width: 55px;
     border: 4px solid #fff;
