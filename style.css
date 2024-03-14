@@ -10,7 +10,7 @@
 body {
 background-color: E5ECF9;
 }
-
+##crear el tamaño del contenedor##
 .container {
     display: flex;
     height: 700px;
@@ -19,7 +19,7 @@ background-color: E5ECF9;
     margin: auto;
     margin-top: 150px;
 }
-
+##actualización de los datos de la clase .info##
 .info{
     background-image: url(Title\ Page\ \(1\).jpg);
     background-position: center center;
@@ -51,7 +51,7 @@ margin-bottom: 25px;
     color: #fff;
     font-size: 18px;
 }
-
+##cambios en la clase .form, .formh2 etc##
 .form {
     padding: 150px 100px;
     width: 50%;
